@@ -134,7 +134,7 @@
   </div>
 </nav>
 <form id="searchform" method="GET" action="index.php" style="display:flex; gap:10px; margin-top:10px; margin-left:10px;">
-    <label for="search">Search Categories:</label>
+    <label for="search">Search:</label>
     <input type="text" id="search" name="search" style="width:150px; height:20px; border-radius:10px;">
     <button type="submit">Search</button>
 </form>
@@ -268,5 +268,6 @@ $conn->close();
   
 
 </script>
+
 
 
